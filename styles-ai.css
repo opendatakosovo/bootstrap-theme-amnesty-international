@@ -1,3 +1,71 @@
-.navbar-inner{
+.navbar-fixed-top .navbar-inner, .navbar-inner{
   background: #FFFF00;
+}
+
+.navbar .nav > li > a {
+  color: black;
+  font-weight: bolder;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: black;
+}
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+    background-color: black;
+    color: white;
+}
+
+.btn-primary, .btn-info{
+  color: black;
+  background-image: -webkit-linear-gradient(top, #ffffa5, #FFFF00);
+  background-color: #FFFF00;
+}
+
+.btn-primary:hover, .btn-info:hover{
+  color: black;
+  background-color: #FFFF00;
+}
+
+h1 [class^="icon-"], h2 [class^="icon-"], h3 [class^="icon-"], h4 [class^="icon-"], h5 [class^="icon-"], h6 [class^="icon-"] {
+    color: black;
+}
+
+.label-success, .label-info{
+    background-color: black;
+}
+
+a{
+  color: black;
+}
+
+.dropdown-menu a:hover{
+  background-color: #FFFF00;
+}
+
+.dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-submenu:hover>a {
+  color: black;
+  background-color: #FFFF00;
+}
+
+
+.dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-submenu:hover>a {
+  color: black;
+  background-color: #8bbf36;
+  background-color: #85b734;
+  background-image: -moz-linear-gradient(top, #ffffa5, #FFFF00);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffa5), to(#FFFF00));
+  background-image: -webkit-linear-gradient(top, #ffffa5, #FFFF00);
+  background-image: -o-linear-gradient(top, #ffffa5, #FFFF00);
+  background-image: linear-gradient(to bottom, #ffffa5, #FFFF00);
+}
+
+
+.nav-list>.active>a, .nav-list>.active>a:hover {
+  color: black;
+  background-color: #FFFF00;
+}
+
+a:hover {
+  color: black;
 }
